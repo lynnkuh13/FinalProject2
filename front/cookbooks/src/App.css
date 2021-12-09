@@ -1,0 +1,38 @@
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container .link {
+  font-size: 30px;
+  background-color: lightgray;
+  text-decoration: none;
+  padding: 10px;
+  color: blue;
+  flex-grow: 1;
+  text-align: center;
+  border-top: solid 2px blue;
+  border-bottom: solid 2px blue;
+  border-right: solid 2px blue;
+  opacity: 100;
+  font-weight: bold;
+}
+
+.container .link:hover {
+  color: aqua;
+  font-weight: bold;
+  border: 2px solid aqua;
+}
+
+.result {
+  margin-top: 10px;
+  border: solid 1px black;
+  padding: 2px;
+}
+
+.lnk {
+  display: flex;
+  flex-direction: row;
+}
